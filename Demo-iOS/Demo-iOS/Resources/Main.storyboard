@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Bob's Demo Shoe Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ry-4s-YFz">
+                                <rect key="frame" x="74" y="20" width="172" height="19.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Nike Air" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krp-FW-Yi6">
+                                <rect key="frame" x="16" y="47.5" width="87" height="31.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="AED 0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2h-0r-uGw">
+                                <rect key="frame" x="215.5" y="47.5" width="88.5" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilD-cr-qSb">
+                                <rect key="frame" x="215.5" y="87.5" width="88.5" height="36"/>
+                                <color key="backgroundColor" red="0.32156862745098036" green="0.65714502334594727" blue="0.4560813307762146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="BUY">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onBuyTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhf-xU-VbD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nike" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-Sq-vRf">
+                                <rect key="frame" x="0.0" y="138" width="320" height="319.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fC-N5-yoN">
+                                <rect key="frame" x="16" y="465.5" width="288" height="86.5"/>
+                                <string key="text">The legend lives on in the Nike Air Force 1 High ’07 Men's Shoe, a modern take on the icon that blends classic style and fresh, crisp details. </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Style 315121-610" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhj-IQ-bbM">
+                                <rect key="frame" x="16" y="100" width="104.5" height="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uhj-IQ-bbM" firstAttribute="leading" secondItem="Krp-FW-Yi6" secondAttribute="leading" id="0dT-qa-VKd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h4c-Sq-vRf" secondAttribute="trailing" id="1ic-24-XHa"/>
+                            <constraint firstItem="5ry-4s-YFz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BPW-m7-LlR"/>
+                            <constraint firstItem="Krp-FW-Yi6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DHU-aK-L8x"/>
+                            <constraint firstItem="ilD-cr-qSb" firstAttribute="leading" secondItem="A2h-0r-uGw" secondAttribute="leading" id="Fpa-Ic-YXG"/>
+                            <constraint firstItem="h4c-Sq-vRf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kc9-1X-3CE"/>
+                            <constraint firstItem="uhj-IQ-bbM" firstAttribute="firstBaseline" secondItem="ilD-cr-qSb" secondAttribute="firstBaseline" id="MmG-9w-hea"/>
+                            <constraint firstItem="ilD-cr-qSb" firstAttribute="top" secondItem="A2h-0r-uGw" secondAttribute="bottom" constant="8" symbolic="YES" id="PWa-jf-E7N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9fC-N5-yoN" secondAttribute="bottom" constant="16" id="XuW-lJ-8iR"/>
+                            <constraint firstItem="A2h-0r-uGw" firstAttribute="firstBaseline" secondItem="Krp-FW-Yi6" secondAttribute="firstBaseline" id="aVq-ao-7av"/>
+                            <constraint firstItem="ilD-cr-qSb" firstAttribute="trailing" secondItem="A2h-0r-uGw" secondAttribute="trailing" id="bvg-dX-knU"/>
+                            <constraint firstItem="Krp-FW-Yi6" firstAttribute="top" secondItem="5ry-4s-YFz" secondAttribute="bottom" constant="8" symbolic="YES" id="cgT-DF-vTG"/>
+                            <constraint firstItem="9fC-N5-yoN" firstAttribute="top" secondItem="h4c-Sq-vRf" secondAttribute="bottom" constant="8" symbolic="YES" id="mm1-Hl-YcD"/>
+                            <constraint firstItem="9fC-N5-yoN" firstAttribute="leading" secondItem="Krp-FW-Yi6" secondAttribute="leading" id="pIR-FJ-Y7H"/>
+                            <constraint firstItem="5ry-4s-YFz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rKs-18-DD9"/>
+                            <constraint firstItem="h4c-Sq-vRf" firstAttribute="top" secondItem="ilD-cr-qSb" secondAttribute="bottom" constant="14.5" id="uua-II-ON9"/>
+                            <constraint firstItem="A2h-0r-uGw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="xZd-YA-SXi"/>
+                            <constraint firstItem="9fC-N5-yoN" firstAttribute="trailing" secondItem="A2h-0r-uGw" secondAttribute="trailing" id="yto-Ps-CHY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63.75" y="32.74647887323944"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nike" width="500" height="500"/>
+    </resources>
+</document>

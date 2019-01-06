@@ -4,4 +4,7 @@
    <FileRef
       location = "group:VerifyPayments/VerifyPayments.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Demo-iOS/Demo-iOS.xcodeproj">
+   </FileRef>
 </Workspace>
