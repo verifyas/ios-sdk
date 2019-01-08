@@ -13,13 +13,13 @@ class ViewController: UIViewController {
 
         let handler = PaymentHandler(
             onComplete: { transfer in
-                print("💵✅ VerifyPayment finished: \(transfer)")
+                print("💵✅ VerifyPayments finished: \(transfer)")
             },
             onError: { error in
-                print("💵❌ VerifyPayment failed: \(error)")
+                print("💵❌ VerifyPayments failed: \(error)")
             },
             onClose: {
-                print("💵ℹ️ VerifyPayment closed")
+                print("💵ℹ️ VerifyPayments closed")
             }
         )
 

@@ -1,6 +1,6 @@
 
-[![pod v1.0.0](http://b.repl.ca/v1/pod-v1.0.0-blue.png)](https://cocoapods.org)
-[![Carthage compatible](http://b.repl.ca/v1/Carthage-Compatible-brightgreen.png)](https://github.com/Carthage/Carthage)
+[![pod v1.0.0](https://img.shields.io/badge/pod-v1.0.0-blue.svg)](https://cocoapods.org)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
 # [Verify Payments](https://verify.as) iOS SDK
 Instant bank payments. Get paid directly to your bank account. No cards needed.
 ## Intro
@@ -35,13 +35,13 @@ You also need to provide the handlers for the payment events.
 ```swift
 let handler = PaymentHandler(
     onComplete: { transfer in
-        print("💵✅ VerifyPayment finished: \(transfer)")
+        print("💵✅ VerifyPayments finished: \(transfer)")
     },
     onError: { error in
-        print("💵❌ VerifyPayment failed: \(error)")
+        print("💵❌ VerifyPayments failed: \(error)")
     },
     onClose: {
-        print("💵ℹ️ VerifyPayment closed")
+        print("💵ℹ️ VerifyPayments closed")
     }
 )
 ```
